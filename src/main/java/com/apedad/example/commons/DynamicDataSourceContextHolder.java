@@ -47,4 +47,8 @@ public class DynamicDataSourceContextHolder {
             DynamicDataSourceContextHolder.set(DataSourceKey.DB_SLAVE1);
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println(RandomUtils.nextInt(0, 2));
+    }
 }
